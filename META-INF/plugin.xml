@@ -1,0 +1,61 @@
+<idea-plugin>
+  <id>color.scheme.Visual Studio 2013 - Dark</id>
+  <name>Visual Studio 2013 - Dark Color Scheme</name>
+  <version>1.2</version>
+  <vendor email="" url="https://bahmut.de">Chris Kaiser</vendor>
+
+  <description><![CDATA[
+<h1>Visual Studio 2013 - Dark Color Scheme</h1>
+<br/>
+<a href="https://github.com/kaiser-chris/jetbrains-visual-studio-theme">GitHub</a> |
+<a href="https://github.com/kaiser-chris/jetbrains-visual-studio-theme/issues">Issues</a>
+<br/>
+<br/>
+
+<b>This is a Color Scheme that is inspired by Visual Studio 2013.</b>
+<br/>
+<br/>
+
+<b>Tested and Supported Languages</b>
+<ul>
+  <li>Java</li>
+  <li>Python</li>
+  <li>Rust</li>
+  <li>XML</li>
+  <li>HTML</li>
+  <li>YAML</li>
+</ul>
+<br/>
+Other languages may work.
+<br/>
+    ]]></description>
+
+  <change-notes><![CDATA[
+<ul>
+  <li>1.2
+    <ol>
+      <li>Improved YAML support</li>
+    </ol>
+  </li>
+  <li>1.1
+    <ol>
+      <li>Improved Python support</li>
+    </ol>
+  </li>
+  <li>1.0
+    <ol>
+      <li>Initial release</li>
+    </ol>
+  </li>
+</ul>
+    ]]>
+  </change-notes>
+
+  <idea-version since-build="142.0"/>
+
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledColorScheme path="/colors/Visual Studio 2013 - Dark"/>
+  </extensions>
+</idea-plugin>
