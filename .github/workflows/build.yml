@@ -6,6 +6,9 @@ on:
       version:
         description: 'Release Version'
         required: true
+      update_description:
+        description: 'Update Description'
+        required: true
 
 jobs:
   build-release:
@@ -18,6 +21,10 @@ jobs:
       - name: Set Version
         run: |
           sed -i 's|<version>0</version>|<version>${{ inputs.version }}</version>|g' ./META-INF/plugin.xml
+
+      - name: Set Update Description
+        run: |
+          sed -i 's|<change-notes><\!\[CDATA\[\]\]></change-notes>|<change-notes><![CDATA[${{ inputs.update_description }}]]></change-notes>|g' ./META-INF/plugin.xml
 
       - name: Build JAR
         run: |
@@ -37,8 +44,7 @@ jobs:
         with:
           tag_name: ${{ inputs.version }}
           release_name: ${{ inputs.version }}
-          body: |
-            Released a version.
+          body: ${{ inputs.update_description }}
           draft: false
           prerelease: false
 
