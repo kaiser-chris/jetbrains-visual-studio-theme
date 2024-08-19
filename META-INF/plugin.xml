@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>color.scheme.Visual Studio 2013 - Dark</id>
   <name>Visual Studio 2013 - Dark Color Scheme</name>
-  <version>0</version>
+  <version>1.3</version>
   <vendor email="" url="https://bahmut.de">Chris Kaiser</vendor>
 
   <description><![CDATA[
@@ -24,6 +24,7 @@
   <li>XML</li>
   <li>HTML</li>
   <li>YAML</li>
+  <li><a href="https://plugins.jetbrains.com/plugin/16825-paradox-language-support">Paradox Language</a></li>
 </ul>
 <br/>
 Other languages may work.
@@ -32,6 +33,12 @@ Other languages may work.
 
   <change-notes><![CDATA[
 <ul>
+  <li>1.3
+    <ol>
+      <li>Improved Paradox Language support</li>
+      <li>Improved documentation background color</li>
+    </ol>
+  </li>
   <li>1.2
     <ol>
       <li>Improved YAML support</li>
