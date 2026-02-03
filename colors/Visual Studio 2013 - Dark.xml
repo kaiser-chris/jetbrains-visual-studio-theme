@@ -1,12 +1,35 @@
 <scheme name="Visual Studio 2013 - Dark" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="description" />
+    <property name="description">&lt;h1&gt;Visual Studio 2013 - Dark Color Scheme&lt;/h1&gt;
+&lt;br/&gt;
+&lt;a href=&quot;https://github.com/kaiser-chris/jetbrains-visual-studio-theme&quot;&gt;GitHub&lt;/a&gt; |
+&lt;a href=&quot;https://github.com/kaiser-chris/jetbrains-visual-studio-theme/issues&quot;&gt;Issues&lt;/a&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+
+&lt;b&gt;This is a Color Scheme that is inspired by Visual Studio 2013.&lt;/b&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+
+&lt;b&gt;Tested and Supported Languages&lt;/b&gt;
+&lt;ul&gt;
+  &lt;li&gt;Java&lt;/li&gt;
+  &lt;li&gt;Python&lt;/li&gt;
+  &lt;li&gt;Rust&lt;/li&gt;
+  &lt;li&gt;XML&lt;/li&gt;
+  &lt;li&gt;HTML&lt;/li&gt;
+  &lt;li&gt;YAML&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plugins.jetbrains.com/plugin/16825-paradox-language-support&quot;&gt;Paradox Language&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+Other languages may work.
+&lt;br/&gt;</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2024.2.0.1.0.0</property>
+    <property name="ideVersion">2025.3.2.0.0</property>
     <property name="vendorMail" />
     <property name="vendorName" />
-    <property name="vendorUrl">http://</property>
+    <property name="vendorUrl">https://github.com/kaiser-chris/jetbrains-visual-studio-theme</property>
     <property name="version">0.1</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -14,36 +37,36 @@
   <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
-    <option name="ANNOTATIONS_COLOR" value="8b999f" />
-    <option name="CARET_COLOR" value="bbbbbb" />
+    <option name="ANNOTATIONS_COLOR" value="8B999F" />
+    <option name="CARET_COLOR" value="BBBBBB" />
     <option name="CARET_ROW_COLOR" value="323232" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="2b2b2b" />
-    <option name="DOCUMENTATION_COLOR" value="6d6d6d" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="2B2B2B" />
+    <option name="DOCUMENTATION_COLOR" value="6D6D6D" />
     <option name="FILESTATUS_ADDED" value="629755" />
-    <option name="FILESTATUS_DELETED" value="6c6c6c" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6c6c6c" />
+    <option name="FILESTATUS_DELETED" value="6C6C6C" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6C6C6C" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="848504" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="d5756c" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="d5756c" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="d5756c" />
-    <option name="FILESTATUS_MERGED" value="9876aa" />
-    <option name="FILESTATUS_MODIFIED" value="6897bb" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="6897bb" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="6897bb" />
-    <option name="FILESTATUS_UNKNOWN" value="d1675a" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="D5756C" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="D5756C" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="D5756C" />
+    <option name="FILESTATUS_MERGED" value="9876AA" />
+    <option name="FILESTATUS_MODIFIED" value="6897BB" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="6897BB" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="6897BB" />
+    <option name="FILESTATUS_UNKNOWN" value="D1675A" />
     <option name="FILESTATUS_addedOutside" value="629755" />
-    <option name="FILESTATUS_changelistConflict" value="d5756c" />
-    <option name="FILESTATUS_modifiedOutside" value="6897bb" />
+    <option name="FILESTATUS_changelistConflict" value="D5756C" />
+    <option name="FILESTATUS_modifiedOutside" value="6897BB" />
     <option name="GUTTER_BACKGROUND" value="313335" />
     <option name="INDENT_GUIDE" value="373737" />
     <option name="LINE_NUMBERS_COLOR" value="888888" />
-    <option name="LOOKUP_COLOR" value="6d6d6d" />
-    <option name="METHOD_SEPARATORS_COLOR" value="4d4d4d" />
-    <option name="MODIFIED_LINES_COLOR" value="415f69" />
-    <option name="NOTIFICATION_BACKGROUND" value="5c5c42" />
+    <option name="LOOKUP_COLOR" value="6D6D6D" />
+    <option name="METHOD_SEPARATORS_COLOR" value="4D4D4D" />
+    <option name="MODIFIED_LINES_COLOR" value="415F69" />
+    <option name="NOTIFICATION_BACKGROUND" value="5C5C42" />
     <option name="PREVIEW_BACKGROUND" value="" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="" />
-    <option name="RECENT_LOCATIONS_SELECTION" value="6d6d6d" />
+    <option name="RECENT_LOCATIONS_SELECTION" value="6D6D6D" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="574300" />
     <option name="RIGHT_MARGIN_COLOR" value="323232" />
     <option name="SELECTED_INDENT_GUIDE" value="505050" />
@@ -295,7 +318,6 @@
       <value>
         <option name="FOREGROUND" value="589df6" />
         <option name="EFFECT_COLOR" value="589df6" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
@@ -958,6 +980,15 @@
         <option name="FOREGROUND" value="cc7832" />
       </value>
     </option>
+    <option name="KOTLIN_SMART_CAST_RECEIVER">
+      <value />
+    </option>
+    <option name="KOTLIN_SMART_CAST_VALUE">
+      <value />
+    </option>
+    <option name="KOTLIN_SMART_CONSTANT">
+      <value />
+    </option>
     <option name="LABEL">
       <value>
         <option name="FONT_TYPE" value="2" />
@@ -1094,6 +1125,14 @@
         <option name="FOREGROUND" value="cc7832" />
       </value>
     </option>
+    <option name="PARADOX_LOCALISATION.LOCALISATION_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="dadada" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="707d95" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
     <option name="PARADOX_SCRIPT.COMPLEX_ENUM_VALUE">
       <value>
         <option name="FONT_TYPE" value="2" />
@@ -1117,6 +1156,11 @@
       <value>
         <option name="EFFECT_COLOR" value="707d95" />
         <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="PARADOX_SCRIPT.DIRECTIVE">
+      <value>
+        <option name="FOREGROUND" value="569cd6" />
       </value>
     </option>
     <option name="PARADOX_SCRIPT.EFFECT">
