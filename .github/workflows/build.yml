@@ -16,7 +16,7 @@ jobs:
     
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v7
 
       - name: Set Version
         run: |
@@ -29,32 +29,16 @@ jobs:
       - name: Build JAR
         run: |
           zip -x \.*\* -x LICENSE -x README.md -x .gitignore -r Visual_Studio_2013_Dark_${{ inputs.version }}.jar *
+          
 
-      - name: Tag Commit
-        uses: tvdias/github-tagger@v0.0.2
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ inputs.version }}
-
-      - name: Create Release
+      - name: Publish GitHub Release
         id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: softprops/action-gh-release@v3
         with:
-          tag_name: ${{ inputs.version }}
-          release_name: ${{ inputs.version }}
-          body: ${{ inputs.update_description }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           draft: false
           prerelease: false
-
-      - name: Upload Release Asset
-        id: upload-release-asset
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./Visual_Studio_2013_Dark_${{ inputs.version }}.jar
-          asset_name: Visual_Studio_2013_Dark_${{ inputs.version }}.jar
-          asset_content_type: application/zip
+          files: ./Visual_Studio_2013_Dark_${{ inputs.version }}.jar
+          tag_name: ${{ inputs.version }}
+          name: ${{ inputs.version }}
+          body: ${{ inputs.update_description }}
