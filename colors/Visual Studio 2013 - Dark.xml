@@ -22,6 +22,7 @@
       &lt;li&gt;HTML&lt;/li&gt;
       &lt;li&gt;YAML&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://plugins.jetbrains.com/plugin/16825-paradox-language-support&quot;&gt;Paradox Language&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/kaiser-chris/pdx-quill&quot;&gt;PDX Quill&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
       &lt;br/&gt;
       Other languages may work.
@@ -1241,6 +1242,57 @@
         <option name="FOREGROUND" value="dadada" />
         <option name="EFFECT_COLOR" value="dadada" />
         <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="PDX_QUILL.DEFINITION">
+      <value>
+        <option name="EFFECT_COLOR" value="707d95" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="PDX_QUILL.DEFINITION_REFERENCE">
+      <value>
+        <option name="EFFECT_COLOR" value="707d95" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="PDX_QUILL.EFFECT">
+      <value>
+        <option name="FOREGROUND" value="4ec9b0" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="PDX_QUILL.KEY">
+      <value>
+        <option name="FOREGROUND" value="d4d4d4" />
+      </value>
+    </option>
+    <option name="PDX_QUILL.LOC_ICON">
+      <value>
+        <option name="FOREGROUND" value="5c8ae6" />
+      </value>
+    </option>
+    <option name="PDX_QUILL.LOC_KEY">
+      <value>
+        <option name="FOREGROUND" value="6868ff" />
+        <option name="EFFECT_COLOR" value="707d95" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="PDX_QUILL.LOC_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="569cd6" />
+      </value>
+    </option>
+    <option name="PDX_QUILL.PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="569cd6" />
+      </value>
+    </option>
+    <option name="PDX_QUILL.SCRIPT_VALUE">
+      <value>
+        <option name="EFFECT_COLOR" value="707d95" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="PHP_EXEC_COMMAND_ID">
